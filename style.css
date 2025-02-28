@@ -49,8 +49,9 @@ body{
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .the_end {
-      grid-template-columns: 1fr; /* Stack elements in one column */
+  .map {
+      width: 80%;
+      height: 250px; /* Adjust height for mobile */
   }
 }
 .contact_us_p1,
