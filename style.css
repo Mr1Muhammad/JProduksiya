@@ -50,7 +50,7 @@ body{
 /* Responsive Design */
 @media (max-width: 768px) {
   .map {
-      width: 80%;
+      width: 95%;
       height: 250px; /* Adjust height for mobile */
   }
 }
