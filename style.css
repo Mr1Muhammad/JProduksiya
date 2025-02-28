@@ -1,0 +1,75 @@
+body{
+  margin: 0px;
+  background-color: #efebe5;
+}
+
+.png1,
+.png2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map_box{
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #efebe5;
+  margin-bottom: 150px;
+}
+.address_word{
+  font-style: Arial;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.the_end {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 20px; /* Space between columns */
+  padding: 20px;
+}
+
+.about_us, .contact_us {
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.contact_us {
+  text-align: center;
+}
+
+.qr_code {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  object-fit: contain;
+  margin-top: 0px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .the_end {
+      grid-template-columns: 1fr; /* Stack elements in one column */
+  }
+}
+.contact_us_p1,
+.contact_us_p2{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.about_us_text{
+  font-size: 28px;
+  color: white;
+}
+
+.phone_num1,
+.phone_num2,
+.address_manual{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
